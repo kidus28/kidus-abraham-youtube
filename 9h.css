@@ -1,0 +1,37 @@
+.img{
+    width: 300px;
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 15px;
+    margin-right: 500px;
+}
+.search{
+    border: none;
+    display: block;
+    width: 700px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 1, 0.3);
+    padding: 20px 10px 20px 20px;
+}
+.gs{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 20px 10px 20px 20px;
+    border-style: none;
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+.im{
+    font-size: 20px;
+    
+    margin-top: 50px;
+    padding: 20px 10px 20px 20px;
+    border-style: none;  
+    color: black; 
+    cursor: pointer;
+}

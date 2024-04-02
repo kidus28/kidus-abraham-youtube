@@ -3,254 +3,311 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/CSS/body.css" />
+    <title>youtube-clone</title>
+    <link rel="stylesheet" href="/HTML/youtube.css" />
   </head>
-  <body style="background-color: rgb(250, 250, 250)">
-    <header>
-      <div class="left-header">
-        <img class="hamburger-menu" src="/icons/hamburger-menu.svg" alt="" />
-        <img class="youtube-logo" src="/icons/youtube-logo.svg" alt="" />
+  <body
+    style="
+      padding-top: 70px;
+      padding-left: 96px;
+      padding-right: 24px;
+      background-color: rgb(248, 248, 248);
+    "
+  >
+    <div class="header">
+      <div class="left">
+        <img class="ham" src="/icons/hamburger-menu.svg" alt="" />
+        <img class="ytl" src="/icons/youtube-logo.svg" alt="" />
       </div>
       <div class="middle">
         <input class="search-bar" type="search" placeholder="search" />
-        <button class="search-button">
-          <img class="search-img" src="/icons/search.svg" alt="" />
-          <p class="tooltip">search</p>
+        <button class="s-b">
+          <img class="srch-butt" src="/icons/search.svg" alt="" />
+          <div class="search-hover">search</div>
         </button>
-        <button class="voice-button">
-          <img class="voice-img" src="/icons/voice-search-icon.svg" alt="" />
-          <p class="tooltip">search with your voice</p>
+        <button class="voice-butt">
+          <img class="voice" src="/icons/voice-search-icon.svg" alt="" />
+          <div class="voice-hover">Search with your voice</div>
         </button>
       </div>
       <div class="right">
-        <div class="upload-button">
-          <img class="upload-img" src="/icons/upload.svg" alt="" />
-          <p class="tooltip">create</p>
+        <div class="upload-hover">
+          <img class="upload" src="/icons/upload.svg" alt="" />
+          <div>Create</div>
         </div>
-        <div class="youtube-apps-button">
-          <img class="youtube-apps" src="/icons/youtube-apps (1).svg" alt="" />
-          <p class="tooltip">Youtube apps</p>
+        <div class="youtubes-apps-hover">
+          <img class="apps" src="/icons/youtube-apps.svg" alt="" />
+          <div>Youtube apps</div>
         </div>
-        <div class="notification-button">
-          <img
-            class="notification-img"
-            src="/icons/notifications (1).svg"
-            alt=""
-          />
-          <p class="number-div">3</p>
-          <p class="tooltip">notifications</p>
+        <div class="noti">
+          <img class="not" src="/icons/notifications (1).svg" alt="" />
+          <div class="mess">Notifications</div>
+          <div class="numb">3</div>
         </div>
-        <div><img class="my-channel" src="/Img/my-channel.jpeg" alt="" /></div>
+        <div><img class="pfpl" src="/Img/my-channel.jpeg" alt="" /></div>
       </div>
+    </div>
+    <div class="bang">
       <div class="sidebar">
         <div class="sidebar-link">
           <img src="/sidebar-icons/home.svg" alt="" />
-          <p class="text">Home</p>
+          <div>Home</div>
         </div>
         <div class="sidebar-link">
           <img src="/sidebar-icons/explore.svg" alt="" />
-          <p class="text">Explore</p>
+          <div>Explore</div>
         </div>
         <div class="sidebar-link">
           <img src="/sidebar-icons/subscriptions.svg" alt="" />
-          <p class="text">Subscriptions</p>
+          <div>Subscriptions</div>
         </div>
         <div class="sidebar-link">
           <img src="/sidebar-icons/originals.svg" alt="" />
-          <p class="text">Originals</p>
+          <div>Originals</div>
         </div>
         <div class="sidebar-link">
           <img src="/sidebar-icons/youtube-music.svg" alt="" />
-          <p class="text">Youtube music</p>
+          <div>Youtube music</div>
         </div>
         <div class="sidebar-link">
           <img src="/sidebar-icons/library.svg" alt="" />
-          <p class="text">Library</p>
+          <div>Library</div>
         </div>
       </div>
-    </header>
-    <main>
-      <div>
-        <div class="thumbnail">
+    </div>
+    <div class="whole">
+      <div class="full">
+        <div class="post">
           <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
-          <p class="time">14:20</p>
+          <div class="time">14:20</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-1.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">
               Talking Tech and AI with Google CEO Sundar Pichai!
             </p>
-            <p class="second">marquees brownlee</p>
-            <p class="theird">3.4M views · 6 months ago</p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
+      <div class="full">
+        <div class="post">
           <img class="thumb" src="/Img/thumbnail-2.jpg" alt="" />
-          <p class="time">8:22</p>
+          <div class="time">8:22</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-2.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-2.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">Try Not To Laugh Challenge #9</p>
-            <p class="second">Markiplier</p>
-            <p class="theird">19M views · 4 years ago</p>
+            <div class="sec">
+              <p>Markiplier</p>
+              <p>19M views &middot; 4 years ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
+      <div class="full">
+        <div class="post">
           <img class="thumb" src="/Img/thumbnail-3.webp" alt="" />
-          <p class="time">9:13</p>
+          <div class="time">9:13</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-3.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-3.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">Crazy Tik Toks Taken Moments Before DISASTER</p>
-            <p class="second">SSSniperWolf</p>
-            <p class="theird">12M views · 1 year ago</p>
+            <div class="sec">
+              <p>SSSniperWolf</p>
+              <p>12M views &middot; 1 year ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
-          <img class="thumb" src="/Img/thumbnail-4.webp" alt="" />
-          <p class="time">22:09</p>
-        </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-4.jpeg" alt="" /></div>
-          <div>
-            <p class="first">
-              The Simplest Math Problem No One Can Solve - Collatz Conjecture
-            </p>
-            <p class="second">Veritasium</p>
-            <p class="theird">18M views · 4 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="thumbnail">
+      <div class="full">
+        <div class="post">
           <img class="thumb" src="/Img/thumbnail-5.webp" alt="" />
-          <p class="time">11:17</p>
+          <div class="time">11:17</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-5.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-5.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">
               Kadane's Algorithm to Maximum Sum Subarray Problem
             </p>
-            <p class="second">CS Dojo</p>
-            <p class="theird">519K views · 5 years ago</p>
+            <div class="sec">
+              <p>CS Dojo</p>
+              <p>519K views &middot; 5 years ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
+      <div class="full">
+        <div class="post">
           <img class="thumb" src="/Img/thumbnail-6.webp" alt="" />
-          <p class="time">19:59</p>
+          <div class="time">19:59</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-6.jpeg" alt="" /></div>
-          <div>
-            <p class="first">Anything You Can Fit In The Circle I’ll Pay For</p>
-            <p class="second">MrBeast</p>
-            <p class="theird">141M views · 1 year ago</p>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-6.jpeg" alt="" />
+          </div>
+          <div class="bio">
+            <p class="first">Anything You Can Fit In The Circle I'll Pay For</p>
+            <div class="sec">
+              <p>MrBeast</p>
+              <p>141M views &middot; 1 year ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
+      <div class="full">
+        <div class="post">
           <img class="thumb" src="/Img/thumbnail-7.webp" alt="" />
-          <p class="time">10:13</p>
+          <div class="time">10:13</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-7.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-7.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">Why Planes Don't Fly Over Tibet</p>
-            <p class="second">RealLifeLore</p>
-            <p class="theird">6.6M views · 1 year ago</p>
+            <div class="sec">
+              <p>RealLifeLore</p>
+              <p>6.6M views &middot; 1 years ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
-          <img class="thumb" src="/Img/thumbnail-8.webp" alt="" />
-          <p class="time">7:12</p>
+      <div class="full">
+        <div class="post">
+          <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
+          <div class="time">14:20</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-8.jpeg" alt="" /></div>
-          <div>
-            <p class="first">Inside The World's Biggest Passenger Plane</p>
-            <p class="second">Tech Vision</p>
-            <p class="theird">3.7M views · 10 months ago</p>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
           </div>
-        </div>
-      </div>
-      <div>
-        <div class="thumbnail">
-          <img class="thumb" src="/Img/thumbnail-9.webp" alt="" />
-          <p class="time">13:17</p>
-        </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-9.jpeg" alt="" /></div>
-          <div>
-            <p class="first">The SECRET to Super Human STRENGTH</p>
-            <p class="second">ThenX</p>
-            <p class="theird">20M views · 3 year ago</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="thumbnail">
-          <img class="thumb" src="/Img/thumbnail-10.webp" alt="" />
-          <p class="time">7:53</p>
-        </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-10.jpeg" alt="" /></div>
-          <div>
+          <div class="bio">
             <p class="first">
-              How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+              Talking Tech and AI with Google CEO Sundar Pichai!
             </p>
-            <p class="second">Business Insider</p>
-            <p class="theird">14M views · 1 year ago</p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
-          <img class="thumb" src="/Img/thumbnail-11.webp" alt="" />
-          <p class="time">4:10</p>
+      <div class="full">
+        <div class="post">
+          <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
+          <div class="time">14:20</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-11.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">
-              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+              Talking Tech and AI with Google CEO Sundar Pichai!
             </p>
-            <p class="second">Destination Tips</p>
-            <p class="theird">3M views · 1 year ago</p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
           </div>
         </div>
       </div>
-      <div>
-        <div class="thumbnail">
-          <img class="thumb" src="/Img/thumbnail-12.webp" alt="" />
-          <p class="time">4:51</p>
+      <div class="full">
+        <div class="post">
+          <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
+          <div class="time">14:20</div>
         </div>
-        <div class="video-info">
-          <div><img class="pfp" src="/Img/logo-12.jpeg" alt="" /></div>
-          <div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
+          </div>
+          <div class="bio">
             <p class="first">
-              What would happen if you didn’t drink water? - Mia Nacamulli
+              Talking Tech and AI with Google CEO Sundar Pichai!
             </p>
-            <p class="second">TED-Ed</p>
-            <p class="theird">12M views · 5 years ago</p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+      <div class="full">
+        <div class="post">
+          <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
+          <div class="time">14:20</div>
+        </div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
+          </div>
+          <div class="bio">
+            <p class="first">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="full">
+        <div class="post">
+          <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
+          <div class="time">14:20</div>
+        </div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
+          </div>
+          <div class="bio">
+            <p class="first">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="full">
+        <div class="post">
+          <img class="thumb" src="/Img/thumbnail-1 (1).webp" alt="" />
+          <div class="time">14:20</div>
+        </div>
+        <div class="grid-colum">
+          <div class="logo">
+            <img class="pfp" src="/Img/logo-1.jpeg" alt="" />
+          </div>
+          <div class="bio">
+            <p class="first">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <div class="sec">
+              <p>marquees brownlee</p>
+              <p>3.4M views &middot; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
