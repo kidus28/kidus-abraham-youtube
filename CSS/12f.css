@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(120, 82, 178);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.home{
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.tbag{
+    width: 500px;
+    height: 30px;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.down{
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border-style: solid;
+    font-size: 18px;
+    border-color: white;
+    border-width: 1px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    transition: 0.15s;
+}
+.home:hover{
+opacity: 0.8;
+}
+.home:active{
+opacity: 0.2;
+}
+.down:hover{
+    opacity: 0.8;
+}
+.down:active{
+    background-color: white;
+    color: rgb(120, 82, 178);
+}

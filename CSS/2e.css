@@ -1,0 +1,36 @@
+.app{
+    color: white;
+    background-color: rgb(10, 102 , 194);
+    padding: 10px 20px 10px 20px;
+    width: 250px;
+    border-radius: 25px;
+    border-style: none;  
+    margin: 0 20px 0 0 ;
+    transition: 1s;
+    cursor: pointer;
+}
+.app:hover{
+    opacity: 0.8;
+    background-color: white;
+    color: rgb(10, 102 , 194);
+}
+.app :active{
+    opacity: 0.4;
+}
+
+.save{
+    color: rgb(10, 102 , 194);
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(10, 102 , 194);
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    border-width: 1px;
+    cursor: pointer;
+}
+.save :hover{
+opacity: 0.8;
+}
+.save :active{
+    opacity: 0.5;
+}

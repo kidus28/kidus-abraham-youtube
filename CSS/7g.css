@@ -1,0 +1,35 @@
+.cat{
+    width: 100px;
+    border-radius: 50px;
+    vertical-align: middle;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.what{
+    border: none;
+    font-size: xx-large;
+    padding: 0 0 0 5px ;
+    margin-right: 0;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+.tweet{
+background-color: rgb(66, 151, 255);
+color: white;
+border-style: none;
+font-size: 20px;
+font-weight: bold;
+padding: 5px 15px 5px 15px;
+border-radius: 20px;
+margin-bottom: 2px;
+cursor: pointer;
+transition: 1s;
+}
+.tweet:hover{
+opacity: 0.8;
+
+}
+.tweet:active{
+    opacity: 0.4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
+}
